@@ -3,4 +3,4 @@ secret: mysecret123
 hooks:
   post-deploy:
     - yarn graphql get-schema --project database
-endpoint: http://localhost:4466
+endpoint: https://us1.prisma.sh/omer-tarik-koc-76724b/database/dev
